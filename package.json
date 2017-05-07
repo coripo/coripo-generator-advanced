@@ -1,0 +1,46 @@
+{
+  "name": "coripo-generator-advanced",
+  "version": "1.0.0",
+  "description": "Advanced event generator for Coripo",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "build": "babel src -d lib --source-maps",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coripo/coripo-generator-advanced.git"
+  },
+  "keywords": [
+    "calendar",
+    "coripo",
+    "coripo-generator",
+    "menstruation"
+  ],
+  "author": "Dariush Alipour <drsh.alipour@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coripo/coripo-generator-advanced/issues"
+  },
+  "homepage": "https://github.com/coripo/coripo-generator-advanced#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "coripo-core": "^1.0.13",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "i18next": "^8.1.0"
+  }
+}
