@@ -1,1 +1,1 @@
-module.exports = require('./lib/menstruation.generator.js');
+module.exports = require('./lib/advanced.generator.js');
